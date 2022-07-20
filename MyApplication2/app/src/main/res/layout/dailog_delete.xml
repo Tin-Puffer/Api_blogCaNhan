@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="351dp"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:src="@drawable/succsess"></ImageView>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:background="@color/white"
+            android:text="Do you want to delete this post?"
+            android:textAlignment="center"
+            android:textColor="#D58610"
+            android:textSize="25dp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/okebnt"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="295dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/white"
+            android:text="Yes"></Button>
+        <Button
+            android:id="@+id/canbtn"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="295dp"
+            android:layout_marginLeft="200dp"
+            android:background="@color/white"
+            android:text="No"></Button>
+    </FrameLayout>
+
+</FrameLayout>

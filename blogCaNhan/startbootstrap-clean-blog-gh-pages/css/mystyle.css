@@ -1,0 +1,45 @@
+.post-preview{
+    position: relative;
+}
+.item{
+    padding-left: 10px;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    cursor: pointer;
+    
+}
+.item:hover{
+    background-color: rgba(0, 0, 0, 0.096);
+}
+.test:hover{
+    cursor: pointer;
+    color: rgba(16, 68, 212, 0.733);
+}
+.nav{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    left: 100%;
+    top: 50%;
+    font-size: 23px;
+    width: 120px;
+    height: 120px;
+    transform: translateY(-20%);
+    display: none;
+}
+.click-menu{
+    width: 90px;
+    height: 90px;
+    background-image: url("https://icon-library.com/images/icon-menu-png/icon-menu-png-24.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: -10%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.click-menu:hover > ul{
+    display: flex;
+}
